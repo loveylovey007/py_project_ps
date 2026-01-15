@@ -11,19 +11,17 @@ def gift_for_wify(occation):
     if occation == 'marriage anniversary':
         print('Marriage Anniversary gift should be from the list :')
         print_gifts_with_serial(ma_gifts)
+        print("These are few Option You can create some by yourself")
     elif occation == 'wifyy birthday':
         print('Birthday gift should be from the list :')
         print_gifts_with_serial(birth_gifts)
+        print("These are few Option You can create some by yourself")
     elif occation == 'other gifts':
         print('Other gift should be from the list :')
         print_gifts_with_serial(fbth_gifts)
+        print("These are few Option You can create some by yourself")
     else:
         print("\nInvalid occasion. Please try again.")
 
 occation = input("Welcome to gift idea. Occation like Marriage Anniversary, Wifyy Birthday, Other Gifts. \n Enter your occation:  ").strip().lower()
 gift_for_wify(occation)
-
-
-
-
-
